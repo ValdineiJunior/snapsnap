@@ -1,0 +1,35 @@
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  height: 75vh;
+  border-radius: 20px;
+  padding: 10px 0 0 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.button {
+  background-color: var(--blue-300);
+  border-radius: 5px;
+  border: none;
+  color: var(--blue-900);
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.button:focus {
+  outline: none;
+}
